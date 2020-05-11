@@ -13,6 +13,10 @@
 		5993459624660F6300CA5F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5993459524660F6300CA5F6C /* Assets.xcassets */; };
 		5993459924660F6300CA5F6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5993459824660F6300CA5F6C /* Preview Assets.xcassets */; };
 		5993459C24660F6300CA5F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993459A24660F6300CA5F6C /* LaunchScreen.storyboard */; };
+		59C7FBC724699EDD001F4625 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7FBC624699EDD001F4625 /* ImageLoader.swift */; };
+		59C7FBC92469B888001F4625 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7FBC82469B888001F4625 /* RemoteImage.swift */; };
+		59E1051124687A0900DC4065 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E1051024687A0900DC4065 /* Constants.swift */; };
+		59E1051324687A8300DC4065 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E1051224687A8300DC4065 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5993459824660F6300CA5F6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5993459B24660F6300CA5F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5993459D24660F6300CA5F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C7FBC624699EDD001F4625 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		59C7FBC82469B888001F4625 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		59E1051024687A0900DC4065 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		59E1051224687A8300DC4065 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				5993458F24660F5900CA5F6C /* AppDelegate.swift */,
 				5993459124660F5900CA5F6C /* SceneDelegate.swift */,
 				5993459324660F5900CA5F6C /* ContentView.swift */,
+				59E1051024687A0900DC4065 /* Constants.swift */,
 				5993459524660F6300CA5F6C /* Assets.xcassets */,
 				5993459A24660F6300CA5F6C /* LaunchScreen.storyboard */,
 				5993459D24660F6300CA5F6C /* Info.plist */,
 				5993459724660F6300CA5F6C /* Preview Content */,
+				59E1051224687A8300DC4065 /* NetworkManager.swift */,
+				59C7FBC624699EDD001F4625 /* ImageLoader.swift */,
+				59C7FBC82469B888001F4625 /* RemoteImage.swift */,
 			);
 			path = AnonimTest;
 			sourceTree = "<group>";
@@ -148,7 +160,11 @@
 			files = (
 				5993459024660F5900CA5F6C /* AppDelegate.swift in Sources */,
 				5993459224660F5900CA5F6C /* SceneDelegate.swift in Sources */,
+				59C7FBC92469B888001F4625 /* RemoteImage.swift in Sources */,
+				59C7FBC724699EDD001F4625 /* ImageLoader.swift in Sources */,
+				59E1051324687A8300DC4065 /* NetworkManager.swift in Sources */,
 				5993459424660F5900CA5F6C /* ContentView.swift in Sources */,
+				59E1051124687A0900DC4065 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +305,7 @@
 				DEVELOPMENT_TEAM = U5PJN58KSH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AnonimTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +326,7 @@
 				DEVELOPMENT_TEAM = U5PJN58KSH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AnonimTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
